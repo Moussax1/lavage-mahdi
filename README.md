@@ -30,11 +30,6 @@ A React Native + Firebase loyalty card management app for car wash businesses. I
 
 Uses EAS Build and EAS Update for OTA updates. Update `eas.json` with your Expo account.
 
-## Lessons Learned
-
-- Free wash logic must track washes since the last free wash, not modulo on total washes, to avoid edge cases
-- Use `setDoc()` for full overwrites, not `updateDoc()`, when resetting documents
-- Firestore has no built-in point-in-time recovery, so export/backup early
 
 ## License
 
